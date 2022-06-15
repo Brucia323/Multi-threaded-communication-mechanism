@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*">
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/tvCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="打到个数"
+
+            />
+
+        <ImageView
+            android:id="@+id/img12"
+            style="@style/ImgStyle"
+            android:background="@mipmap/crystalno1"
+
+            />
+
+        <ImageView
+            android:id="@+id/img13"
+            style="@style/ImgStyle"
+            android:background="@mipmap/crystalno1"
+
+            />
+
+        <ImageView
+            android:id="@+id/img14"
+            style="@style/ImgStyle"
+            android:background="@mipmap/crystalno1"
+
+            />
+
+        <TextView
+            android:id="@+id/tvRemainTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="剩余时间" />
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/img21"
+            style="@style/ImgStyle"
+            android:background="@mipmap/crystalno1" />
+
+        <ImageView
+            android:id="@+id/img22"
+            style="@style/ImgStyle"
+            android:background="@mipmap/crystalno1" />
+
+        <ImageView
+            android:id="@+id/img23"
+            style="@style/ImgStyle"
+            android:background="@mipmap/crystalno1" />
+
+        <ImageView
+            android:id="@+id/img24"
+            style="@style/ImgStyle"
+            android:background="@mipmap/crystalno1" />
+
+        <ImageView
+            android:id="@+id/img25"
+            style="@style/ImgStyle"
+            android:background="@mipmap/crystalno1" />
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/img31"
+            style="@style/ImgStyle"
+            android:background="@mipmap/crystalno1" />
+
+        <ImageView
+            android:id="@+id/img32"
+            style="@style/ImgStyle"
+            android:background="@mipmap/crystalno1" />
+
+        <ImageView
+            android:id="@+id/img33"
+            style="@style/ImgStyle"
+            android:background="@mipmap/crystalno1" />
+
+        <ImageView
+            android:id="@+id/img34"
+            style="@style/ImgStyle"
+            android:background="@mipmap/crystalno1" />
+
+        <ImageView
+            android:id="@+id/img35"
+            style="@style/ImgStyle"
+            android:background="@mipmap/crystalno1" />
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/img41"
+            style="@style/ImgStyle"
+            android:background="@mipmap/crystalno1" />
+
+        <ImageView
+            android:id="@+id/img42"
+            style="@style/ImgStyle"
+            android:background="@mipmap/crystalno1" />
+
+        <ImageView
+            android:id="@+id/img43"
+            style="@style/ImgStyle"
+            android:background="@mipmap/crystalno1" />
+
+        <ImageView
+            android:id="@+id/img44"
+            style="@style/ImgStyle"
+            android:background="@mipmap/crystalno1" />
+
+        <ImageView
+            android:id="@+id/img45"
+            style="@style/ImgStyle"
+            android:background="@mipmap/crystalno1" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btnReplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Replay" />
+
+        <ImageView
+            android:id="@+id/img52"
+            style="@style/ImgStyle"
+            android:background="@mipmap/crystalno1" />
+
+        <ImageView
+            android:id="@+id/img53"
+            style="@style/ImgStyle"
+            android:background="@mipmap/crystalno1" />
+
+        <ImageView
+            android:id="@+id/img54"
+            style="@style/ImgStyle"
+            android:background="@mipmap/crystalno1" />
+
+        <Button
+            android:id="@+id/btnPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Play" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/tvThread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="线程ID" />
+</TableLayout>
